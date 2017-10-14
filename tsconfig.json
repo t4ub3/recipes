@@ -1,0 +1,24 @@
+// configuration for compiler typescript -> javascript
+
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "exclude": [
+    ".tmp",
+    "node_modules/rxjs/Subject.d.ts",
+    "node_modules",
+    "typings"
+  ]
+}
