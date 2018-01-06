@@ -1,5 +1,5 @@
 /**
- * RecipesController
+ * RecipeController
  *
  * @description :: Server-side logic for managing recipes
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
@@ -10,7 +10,7 @@ module.exports = {
 
 
   /**
-   * `RecipesController.name()`
+   * `RecipeController.name()`
    */
   name: function (req, res) {
     return res.json({
@@ -20,7 +20,7 @@ module.exports = {
 
 
   /**
-   * `RecipesController.description()`
+   * `RecipeController.description()`
    */
   description: function (req, res) {
     return res.json({
@@ -30,27 +30,17 @@ module.exports = {
 
 
   /**
-   * `RecipesController.authorID()`
+   * `RecipeController.is_deleted()`
    */
-  authorID: function (req, res) {
+  is_deleted: function (req, res) {
     return res.json({
-      todo: 'authorID() is not implemented yet!'
+      todo: 'is_deleted() is not implemented yet!'
     });
   },
 
 
   /**
-   * `RecipesController.isDeleted()`
-   */
-  isDeleted: function (req, res) {
-    return res.json({
-      todo: 'isDeleted() is not implemented yet!'
-    });
-  },
-
-
-  /**
-   * `RecipesController.picture()`
+   * `RecipeController.picture()`
    */
   picture: function (req, res) {
     return res.json({

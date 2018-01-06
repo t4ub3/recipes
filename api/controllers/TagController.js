@@ -1,7 +1,7 @@
 /**
- * CategoryController
+ * TagController
  *
- * @description :: Server-side logic for managing categories
+ * @description :: Server-side logic for managing tags
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
 
@@ -10,7 +10,7 @@ module.exports = {
 
 
   /**
-   * `CategoryController.name()`
+   * `TagController.name()`
    */
   name: function (req, res) {
     return res.json({
